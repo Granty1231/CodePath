@@ -11,7 +11,7 @@ Time spent: **7** hours spent in total (including setup)
     - Vulnerability types: Cross-Site Scripting (XSS)
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
-  - [X] GIF Walkthrough: 
+  - [X] GIF Walkthrough: <img src="https://github.com/Granty1231/CodePath/blob/master/cpweek7-3.gif" width="800"> 
   - [X] Steps to recreate: One needs to post a link element on a page or post and add a style attribute holding a JS element. For example: <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>. When the page is viewed, hovering over the link will generate a js alert.
   - [X] Affected source code: Vulnerability comes from poor validating of style attribute elements
     - [Link 1] https://wpvulndb.com/vulnerabilities/8111
@@ -21,7 +21,7 @@ Time spent: **7** hours spent in total (including setup)
     - Vulnerability types: Cross-Site Scripting (XSS)
     - Tested in version: 4.2
     - Fixed in version: 4.2.6
-  - [X] GIF Walkthrough: 
+  - [X] GIF Walkthrough: <img src="https://github.com/Granty1231/CodePath/blob/master/cpweek7-2.gif" width="800"> 
   - [X] Steps to recreate: Open a new page, post "http://www.example.com/wp-admin/customize.php?theme=<svg onload=alert(1)> (source: https://twitter.com/brutelogic/status/685105483397619713)" into the page to allow for a script to load in the SVG tag. Go to main page and the JS alert will run onloading the modified page.
   - [X] Affected source code:
     - [Link 1] (https://github.com/WordPress/WordPress/commit/7ab65139c6838910426567849c7abed723932b87)
