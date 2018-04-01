@@ -13,8 +13,7 @@ Time spent: **** hours spent in total
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
   - [ ] Steps to recreate: One needs to post a link element on a page or post and add a style attribute holding a JS element. For example: <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>. When the page is viewed, hovering over the link will generate a js alert.
-  - [ ] Affected source code: Vulnerability comes from poor validating of style attribute elements, el=xploited using
-      <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>
+  - [ ] Affected source code: Vulnerability comes from poor validating of style attribute elements
     - [Link 1](https://wpvulndb.com/vulnerabilities/8111)
     - [Link 2](https://klikki.fi/adv/wordpress3.html)
 2. (Required) Authenticated Stored Cross-Site Scripting (XSS)
